@@ -1,0 +1,80 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Contratot extends Model 
+{
+    protected $primaryKey = 'id_contrato';
+    public $table = 'adv_trabalhista';
+    protected $fillable = [
+        'id_contrato',
+        'empresa',
+        'emp_endereco',
+        'emp_bairro',
+        'emp_cidade',
+        'emp_estado',
+        'emp_cep',
+        'emp_cnpj',
+        'emp_servico',
+        'emp_serv_nome',
+        'emp_serv_end',
+        'emp_serv_bairro',
+        'emp_serv_cidade',
+        'emp_serv_estado',
+        'emp_serv_cep',
+        'emp_serv_cnpj',
+        'tipo_contratacao',
+        'data_admissao',
+        'data_registro',
+        'data_demissao',
+        'baixa_ctps',
+        'baixa_ctps_quando',
+        'pis',
+        'jornsem_dia_inicio',
+        'jornsem_dia_fim',
+        'jornsem_hora_inicio',
+        'jornsem_hora_fim',
+        'jornsab_hora_inicio',
+        'jornsab_hora_fim',
+        'jorndom_hora_inicio',
+        'jorndom_hora_fim',
+        'jorn_obs',
+        'intervalo',
+        'intervalo_sab',
+        'intervalo_dom',
+        'batia_cartao',
+        'batia_cartao_horario_inicio',
+        'batia_cartao_horario_fim',
+        'maior_salario',
+        'salario_porfora',
+        'salario_porfora_val',
+        'vale_transporte',
+        'num_conducao',
+        'tipo_conducao',
+        'motivo_rescisao',
+        'aviso_previo',
+        'num_ferias',
+        'num_ferias_anos',
+        'ferias_traba',
+        'ferias_traba_num',
+        'ferias_venc_terco',
+        'ferias_prop_terco',
+        'decimoterc_atrasado',
+        'decimoterc_anos',
+        'decimoterc_prop',
+        'fgts_depositado',
+        'fgts_depositado_qto',
+        'verbas_rescisorias',
+        'verbas_rescisorias_qto',
+        'material_insalubre',
+        'material_insalubre_quais',
+        'recebia_adicional',
+        'periculosidade',
+        'equiparacao_salarial',
+        'paradigma',
+        'texto_declaracao'
+    ];
+}
+
